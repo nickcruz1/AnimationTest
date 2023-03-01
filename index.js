@@ -18,3 +18,11 @@ function moveUp() {
       testBall.style.left = "40%";
       testBall.style.transition ="500ms";
     }
+
+ function moveRight() {
+      let testBall = document.querySelector(".testBall");
+    
+      testBall.style.left = "60%";
+      testBall.style.transition ="500ms";
+    }
+  
