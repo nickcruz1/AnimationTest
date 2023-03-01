@@ -11,3 +11,10 @@ function moveUp() {
       testBall.style.top = "60%";
       testBall.style.transition ="500ms";
     }
+
+ function moveLeft() {
+      let testBall = document.querySelector(".testBall");
+    
+      testBall.style.left = "40%";
+      testBall.style.transition ="500ms";
+    }
